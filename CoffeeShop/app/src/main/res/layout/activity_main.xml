@@ -1,0 +1,76 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+    <ImageView
+        android:src="@drawable/coffee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:id="@+id/image"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Coffee Shoppé"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-light"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:paddingTop="20sp"
+        android:textSize="40sp"
+        android:id="@+id/header"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/time"
+        android:text=" 8:00 AM to 10:00AM"
+        android:textAlignment="center"
+        android:layout_below="@id/header"
+        android:paddingLeft="20sp"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"/>
+    <TextView
+        android:id="@+id/intro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/time"
+        android:text="Introductory Offer"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:padding="10sp"/>
+
+    <TextView
+        android:id="@+id/cost"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30sp"
+        android:layout_marginBottom="100sp"
+        android:text="₹99/-"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+    <TextView
+        android:id="@+id/days"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:textColor="@android:color/white"
+        android:text="Only for 2 days "
+        android:layout_marginBottom="100sp"
+        android:padding="0sp"
+        android:textSize="20sp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="buy now"
+        android:layout_marginBottom="50sp"
+        android:layout_toRightOf="@+id/cost"
+        android:padding="10sp"
+        />
+</RelativeLayout>
