@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Galli Cricket</string>
+    <string name="team_a">Team A</string>
+    <string name="runs">0</string>
+    <string name="slash">/</string>
+    <string name="wickets">0</string>
+    <string name="wide">Wide</string>
+    <string name="dot">dot</string>
+    <string name="Two">2</string>
+    <string name="Four">4</string>
+    <string name="Six">6</string>
+    <string name="Wicket">Wicket</string>
+    <string name="team_b">Team B</string>
+    <string name="reset">Reset</string>
+</resources>
